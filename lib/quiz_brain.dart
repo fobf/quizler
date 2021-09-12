@@ -60,23 +60,7 @@ class QuizBrain {
     }
   }
 
-//TODO:add method to increase correct answers to quiz_brain
-  // void addCorrectAnswer() {
-  //   rightAnswer++;
-  // }
-
-//TODO: add method to increase incorrect answers to quiz_brain
-  // void addIncorrectAnswer() {
-  //   wrongAnswer++;
-  // }
-
-  // showAnswers() {
-  //   return rightAnswer;
-  //   return wrongAnswer;
-  // }
-
   void reset() {
-    //TODO:reset correct and incorrect answers
     _questionNumber = 0;
   }
 }

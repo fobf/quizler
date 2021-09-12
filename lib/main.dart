@@ -66,16 +66,12 @@ class _QuizPageState extends State<QuizPage> {
         scoreKeeper = [];
       } else {
         if (userPickAnswer == correctAnswer) {
-          //TODO:increase correct answer
-          // quizBrain.addCorrectAnswer();
           rightAnswer++;
 
           scoreKeeper.add(
             Icon(Icons.check, color: Colors.green),
           );
         } else {
-          //TODO: increase correct answer
-          // quizBrain.addIncorrectAnswer();
           wrongAnswer++;
 
           scoreKeeper.add(
