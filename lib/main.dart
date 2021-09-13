@@ -115,7 +115,7 @@ class _QuizPageState extends State<QuizPage> {
                 onPrimary: Colors.white, // foreground
               ),
               child: Text(
-                'True',
+                'Верно',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 20.0,
@@ -136,7 +136,7 @@ class _QuizPageState extends State<QuizPage> {
                 onPrimary: Colors.white, // foreground
               ),
               child: Text(
-                'False',
+                'Неверно',
                 style: TextStyle(
                   fontSize: 20.0,
                   color: Colors.white,
