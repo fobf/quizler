@@ -1,4 +1,4 @@
-#Sat Sep 11 23:14:03 EEST 2021
+#Mon Sep 13 16:13:04 EEST 2021
 base.0=D\:\\dev\\projects\\quizler\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

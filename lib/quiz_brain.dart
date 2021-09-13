@@ -2,37 +2,33 @@ import 'question.dart';
 import 'dart:core';
 
 class QuizBrain {
-  //initialise correct and incorrect answers
   int _questionNumber = 0;
-  // int rightAnswer = 0;
-  // int wrongAnswer = 0;
 
   List<Question> _questionBank = [
-    Question('Some cats are actually allergic to humans', true),
-    Question('You can lead a cow down stairs but not up stairs.', false),
-    Question('Approximately one quarter of human bones are in the feet.', true),
-    Question('A slug\'s blood is green.', true),
-    Question('Buzz Aldrin\'s mother\'s maiden name was \"Moon\".', true),
-    Question('It is illegal to pee in the Ocean in Portugal.', true),
     Question(
-        'No piece of square dry paper can be folded in half more than 7 times.',
+        'В Китае есть специальные дорожки для пользователей мобильных телефонов',
+        true),
+    Question('В Китае лечат от интернет зависимости в больницах', false),
+    Question('Китай самая курящая страна в мире', true),
+    Question(
+        'Смертная казнь применяется в Китае больше, чем в любой другой стране мира ',
+        true),
+    Question('Китай мировой лидер по загрязнению воздуха', true),
+    Question(
+        'Многие дети в Китае содержат тараканов в качестве домашних питомцев',
         false),
+    Question('Все китайцы умеют хорошо петь', false),
     Question(
-        'In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.',
+        'В Китае одновренменно действует левосторонее и правосторонее движение',
         true),
-    Question(
-        'The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.',
-        false),
-    Question(
-        'The total surface area of two human lungs is approximately 70 square metres.',
-        true),
-    Question('Google was originally called \"Backrub\".', true),
-    Question(
-        'Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog.',
-        true),
-    Question(
-        'In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.',
-        true),
+    Question('Рестораны Китая никогда не закрываются', false),
+    Question('Китайцы почти не пьют молоко и не едят творог', true),
+    Question('Китай не продает панд, а сдает в аренду', true),
+    Question('Цвет траура в Китае не черный, а белый', true),
+    Question('Несчастливое число в Китае -4, а счастливое 8', true),
+    Question('70% китайцев  безграмотные', false),
+    Question('50% китайцев  никогда не берут отпуск', true),
+    Question('30млн китайцев живут в пещерных домах', true),
   ];
 
   void nextQuestion() {

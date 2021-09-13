@@ -43,17 +43,17 @@ class _QuizPageState extends State<QuizPage> {
       if (quizBrain.isFinished()) {
         Alert(
           context: context,
-          title: "Finished!",
+          title: "Конец!",
           content: Column(
             children: <Widget>[
               Text(
-                  'You have $rightAnswer right answers and $wrongAnswer wrong answers.'),
+                  "У вас $rightAnswer правильных ответов и $wrongAnswer неправильных ответов."),
             ],
           ),
           buttons: [
             DialogButton(
               child: Text(
-                "Restart",
+                "Еще раз!",
                 style: TextStyle(color: Colors.white, fontSize: 20),
               ),
               onPressed: () => Navigator.pop(context),
